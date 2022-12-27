@@ -1,0 +1,11 @@
+
+    "name": "한강뷰 in 트리마제",
+    "country": "한국",
+    "city": "서울",
+    "price": 6000,
+    "rooms": 4,
+    "toilets": 2,
+    "description": "멋진한강뷰를 즐겨보세요!",
+    "address": "한강",
+    "pet_friendly": true,
+    "kind": "private_room"
