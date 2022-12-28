@@ -4,7 +4,7 @@ from common.models import CommonModel
 
 class Photo(CommonModel):
 
-    file = models.ImageField()
+    file = models.URLField()
     description = models.CharField(max_length=140)
 
     # 한개의 방이 많은 photo를 가질 수 있음 (N:1)
