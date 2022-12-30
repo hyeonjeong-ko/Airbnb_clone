@@ -147,3 +147,10 @@ MEDIA_ROOT = "uploads"  # 파일이 실제로 있는 위치
 MEDIA_URL = "user-uploads/"  # 파일을 노출하는 방법
 
 PAGE_SIZE = 3
+
+REST_FRAMEWORK = {
+    "DEFAULT_AUTHENTICATION_CLASSES": [
+        "rest_framework.authentication.SessionAuthentication",
+        "config.authentication.TrustMeBroAuthentication",
+    ]
+}
